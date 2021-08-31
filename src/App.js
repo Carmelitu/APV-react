@@ -1,12 +1,23 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import Cita from './components/Cita.js';
 import Formulario from './components/Formulario.js';
 
 
 function App() {
 
+  // Citas en LocalStorage
+  let citasIniciales = JSON.parse(localStorage.getItem('citas'));
+
+  if (!citasIniciales){
+    citasIniciales = [];
+  }
+
   // Arreglo de Citas
-  const [citas, setCitas] = useState([]);
+  const [citas, setCitas] = useState(citasIniciales);
+
+  useEffect( () => {
+    localStorage.setItem( 'appointments', JSON.stringify( citas ) );
+  }, [citas] );
 
   // Funcion que tome las citas actuales y agregue la nueva
   const crearCita = cita => {
