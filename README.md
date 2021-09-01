@@ -6,7 +6,7 @@ Check it out here: https://apv-react-carmelitu.netlify.app/
 
 Project made for a React course on Udemy. 
 
-This page is in charge of keeping track of appointments for a veterinary clinic. You can add, modify and delete appointments as you wish. The form also has validations to correctly load all the fields. It uses classes and modules.
+This page is in charge of keeping track of appointments for a veterinary clinic. You can add, modify and delete appointments as you wish. The form also has validations to correctly load all the fields. 
 
 
 
