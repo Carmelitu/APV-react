@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Administrador de citas / Veterinary appointments with React
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0279b915-430b-4767-8615-dc59eda367e7/deploy-status)](https://app.netlify.com/sites/apv-react-carmelitu/deploys)
+
+Check it out here: https://apv-react-carmelitu.netlify.app/
+
+Project made for a React course on Udemy. 
+
+This page is in charge of keeping track of appointments for a veterinary clinic. You can add, modify and delete appointments as you wish. The form also has validations to correctly load all the fields. It uses classes and modules.
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
